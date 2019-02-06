@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import NavBar from './components/NavBar'
 import HomeContent from './components/HomeContent'
 import SignUpForm from './components/SignUpForm'
 import Layout from './components/Layout'
