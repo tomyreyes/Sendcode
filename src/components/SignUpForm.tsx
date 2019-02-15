@@ -3,8 +3,8 @@ import FormValidation from './utils/FormValidation'
 import styled from 'styled-components'
 
 const ContentContainer = styled.section`
-  width: 50vw;
-  text-align: center;
+  /* width: 50vw;
+  text-align: center; */
 `
 const Form = styled.form``
 const FormInput = styled.input`

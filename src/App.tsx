@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import HomeContent from './components/HomeContent'
-import SignUpForm from './components/SignUpForm'
 import Layout from './components/Layout'
+import Image from './components/Image'
 import Teamwork from './static/teamwork.jpg'
 
 class App extends Component {
@@ -10,8 +10,7 @@ class App extends Component {
       <div>
         <Layout>
           <HomeContent />
-          <img src={Teamwork} />
-          <SignUpForm />
+          <Image image={Teamwork} />
         </Layout>
       </div>
     )

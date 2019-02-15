@@ -1,9 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import SignUpForm from './SignUpForm'
 
 const ContentContainer = styled.section`
   width: 50vw;
   text-align: center;
+  flex-basis: 50%;
 `
 const ContentTitle = styled.h1`
   font-size: 2rem;
@@ -41,6 +43,7 @@ const HomeContent = () => {
       <Content>
         <b>This Month's Problem Space: TBD</b>
       </Content>
+      <SignUpForm />
     </ContentContainer>
   )
 }
